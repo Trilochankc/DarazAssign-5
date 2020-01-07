@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.squareup.picasso.Picasso;
 import com.trilochan.darazassign_5.ClassModel.DarazProductModalClass;
 import com.trilochan.darazassign_5.R;

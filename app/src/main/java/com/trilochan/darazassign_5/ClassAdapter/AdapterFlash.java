@@ -11,12 +11,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.squareup.picasso.Picasso;
 import com.trilochan.darazassign_5.ClassModel.FlashModalClass;
 import com.trilochan.darazassign_5.R;
-
 import java.util.List;
 
 public class AdapterFlash extends RecyclerView.Adapter<AdapterFlash.ContactsViewHolder>{
     Context mContext;
     List<FlashModalClass> flashModalClassList;
+
 
     public AdapterFlash(Context mContext, List<FlashModalClass> flashModalClassList) {
         this.mContext = mContext;
