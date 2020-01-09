@@ -37,7 +37,6 @@ public class CartFragment extends Fragment {
         } else {
 
         }
-
         return view;
     }
 
