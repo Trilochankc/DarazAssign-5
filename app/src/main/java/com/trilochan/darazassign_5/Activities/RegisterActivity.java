@@ -1,9 +1,7 @@
 package com.trilochan.darazassign_5.Activities;
 
 import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.trilochan.darazassign_5.R;
 
 public class RegisterActivity extends AppCompatActivity {
