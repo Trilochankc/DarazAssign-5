@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorLogin"
-    tools:context=".activity.LandingActivity">
+    tools:context=".Activities.LandingActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="350dp"
-            android:background="@drawable/landing"/>
+            android:background="@drawable/darazz"/>
 
     </LinearLayout>
 
@@ -41,58 +41,19 @@
             android:id="@+id/btnCreate"/>
 
         <Button
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Login"
-            android:textSize="14dp"
+
+            android:layout_height="56dp"
             android:layout_marginTop="12dp"
-            android:textColor="#ff3a14"
+            android:background="@drawable/loginnewbutton"
             android:textAllCaps="true"
-            android:background="@drawable/banner_login_button"
-            android:id="@+id/btnLogin"/>
+            android:textColor="#ff3a14"
+            android:textSize="14dp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Connect With Other Ways"
-            android:textColor="@color/colorWhite"
-            android:padding="10dp"
-            android:textSize="12dp"
-            android:textAlignment="center"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btnFacebook"
-                android:layout_weight="1"
-                android:background="@drawable/button_facebook"
-                android:layout_marginRight="6dp"
-                android:textColor="@color/colorWhite"
-                android:textAllCaps="false"
-                android:textSize="13dp"
-                android:textStyle="bold"
-                android:text="Facebook"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btnGoogle"
-                android:layout_weight="1"
-                android:background="@drawable/button_google"
-                android:layout_marginLeft="6dp"
-                android:textColor="@color/colorWhite"
-                android:textAllCaps="false"
-                android:textSize="13dp"
-                android:textStyle="bold"
-                android:text="Google"/>
-
-        </LinearLayout>
 
     </LinearLayout>
 
