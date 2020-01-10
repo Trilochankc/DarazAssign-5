@@ -11,7 +11,7 @@ public class Client {
 
         if (retrofit == null){
             retrofit = new Retrofit.Builder()
-                    .baseUrl("http://192.168.137.1:3000/")
+                    .baseUrl("http://10.0.2.2:3000/")
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
         }

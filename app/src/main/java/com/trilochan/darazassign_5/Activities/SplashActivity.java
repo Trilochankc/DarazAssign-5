@@ -6,8 +6,7 @@ import android.os.Handler;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.simant.darazclone.R;
+import com.trilochan.darazassign_5.R;
 
 public class SplashActivity extends AppCompatActivity {
 

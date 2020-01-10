@@ -48,7 +48,7 @@
             android:layout_marginTop="12dp"
             android:textColor="#ff3a14"
             android:textAllCaps="true"
-            android:background="@drawable/login_button"
+            android:background="@drawable/banner_login_button"
             android:id="@+id/btnLogin"/>
 
         <TextView
