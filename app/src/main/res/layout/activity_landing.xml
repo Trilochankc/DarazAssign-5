@@ -4,57 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorLogin"
     tools:context=".Activities.LandingActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="@color/colorLogin">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="350dp"
-            android:background="@drawable/darazz"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="16dp"
-        android:layout_gravity="center"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:background="@color/colorLogin">
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Create An Account"
-            android:background="@drawable/create_account_button"
-            android:textSize="14dp"
-            android:textAllCaps="true"
-            android:textColor="@color/colorWhite"
-            android:id="@+id/btnCreate"/>
-
-        <Button
-            android:id="@+id/btnLogin"
-            android:layout_width="match_parent"
-
-            android:layout_height="56dp"
-            android:layout_marginTop="12dp"
-            android:background="@drawable/loginnewbutton"
-            android:textAllCaps="true"
-            android:textColor="#ff3a14"
-            android:textSize="14dp" />
-
-
-
-
-
-    </LinearLayout>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="This is for cart"
+      android:textSize="90dp"/>
 
 </LinearLayout>
