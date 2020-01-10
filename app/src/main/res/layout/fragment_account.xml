@@ -7,11 +7,106 @@
     android:orientation="vertical"
     android:background="#eff0f5"
     tools:context=".fragment.AccountFragment">
+   <ImageView
+       android:id="@+id/imgLogintop"
+       android:layout_width="match_parent"
+       android:layout_height="190dp"
+       android:src="@drawable/loginhead" />
 
    <TextView
+       android:id="@+id/finalMessage"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:text="This is for profile"
-       android:textSize="90dp"/>
+       android:text="SMS"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:textColor="#ff0000"/>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/card_view"
+       android:layout_gravity="center"
+       android:layout_width="250dp"
+       android:layout_height="wrap_content"
+       app:cardUseCompatPadding="true">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Mobile Number"
+             android:layout_marginRight="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="10dp"
+
+             android:textSize="15sp"/>
+
+         <EditText
+             android:id="@+id/etPhone"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="Enter mobile number"
+             android:maxLength="10"
+             android:layout_marginRight="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="10dp"
+             android:inputType="number" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="SMS Code"
+             android:layout_marginRight="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginTop="10dp"
+             android:textSize="15sp"/>
+
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etSMS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:background="#ffff"
+                android:textColor="#ff0000"
+                android:layout_marginRight="20dp"
+                android:text="Send"
+                />
+
+         </RelativeLayout>
+
+         <Button
+             android:id="@+id/btnLogin"
+             android:layout_width="220dp"
+             android:layout_height="45dp"
+             android:layout_gravity="center"
+             android:layout_margin="10dp"
+             android:background="@drawable/loginnewbutton"
+             android:textColor="@color/colorWhite" />
+
+
+      </LinearLayout>
+
+
+
+
+   </androidx.cardview.widget.CardView>
+
 
 </LinearLayout>

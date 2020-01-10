@@ -13,14 +13,16 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity android:name=".Activities.LandingActivity" />
-        <activity android:name=".Activities.SplashActivity"/>
-        <activity android:name=".Activities.DashboardActivity">
+        <activity android:name=".Activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activities.DashboardActivity"/>
+
+
         <activity android:name=".Activities.ProductDetailActivity"/>
         <activity android:name=".Activities.RegisterActivity"/>
 
